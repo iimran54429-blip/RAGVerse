@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data & artifacts (keep structure, ignore contents)
+data/uploads/*
+data/processed/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+
+# Tests & tools
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+logs/
+*.log
